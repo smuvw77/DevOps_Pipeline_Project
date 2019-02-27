@@ -1,7 +1,7 @@
 pipeline {
     agent none 
     stages {
-        stage(' Build') {
+        stage('Build') {
            
             steps {
                 echo 'Hello, Maven'
