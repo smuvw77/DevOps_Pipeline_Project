@@ -6,6 +6,10 @@ pipeline {
             steps {
                 echo 'Hello, Maven'
                 bat 'mvn --version'
+                
+                //below commad for linux 
+                // sh 'mvn --version' 
+                
             }
         }
         stage('Test') {
